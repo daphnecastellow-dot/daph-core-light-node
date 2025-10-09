@@ -1,6 +1,11 @@
 # Daph Core Light Node
 
-A minimalist MicroPython demo for a single NeoPixel RGB LED on boards like Raspberry Pi Pico or ESP32. Pulses through themed states: **Bytey** (gold), **Mendry** (light blue), **Remy** (violet). Boot it up and watch the intention become presence.
+A MicroPython LED node where intention meets code — each color a state, 
+brightness shaped by Wi-Fi presence.
+
+A minimalist MicroPython demo for a single NeoPixel RGB LED on boards 
+like Raspberry Pi Pico or ESP32. Pulses through themed states: Bytey (gold), 
+Mendry (blue), and Remy (violet).
 
 ## Quick Setup
 1. **Hardware**: Connect a WS2812B NeoPixel to GPIO Pin 4 (data line). Power via 5V/GND.
