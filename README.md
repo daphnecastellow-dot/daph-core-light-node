@@ -3,6 +3,8 @@
 A MicroPython LED node where intention meets code — each color a state, 
 brightness shaped by Wi-Fi presence.
 Where light becomes language — calm, connection, and care in code. 
+
+
 A minimalist MicroPython demo for a single NeoPixel RGB LED on boards 
 like Raspberry Pi Pico or ESP32. Pulses through themed states: Bytey (gold), 
 Mendry (blue), and Remy (violet).
