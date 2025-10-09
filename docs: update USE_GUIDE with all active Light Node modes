@@ -8,4 +8,7 @@
 | **Sleep Mode** | `sleep_mode.py → sleep_fade()` | Warm amber light that fades to darkness over 20 minutes |
 | **Focus Mode** | `focus_mode.py → focus_light()` | Steady cool-blue light for concentration and study sessions |
 | **Alert Mode** | `alert_mode.py → pulse_alert()` | Short bright pulses for gentle visual notifications |
+### ♿ Accessibility Note
+The **Alert Mode** offers a silent, visual alternative to sound-based notifications.  
+It can assist users with hearing difficulties by providing quick light pulses for reminders, timers, or alerts without relying on audio cues.
 | **Morning Mode** | `morning_mode.py → sunrise_fade()` | Gradual sunrise effect that brightens from red to white for natural wake lighting |
