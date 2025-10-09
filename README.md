@@ -27,3 +27,24 @@ MIT – Free to fork, flash, and flow.
 
 **Author**: Daphne Castellow  
 **Framework**: Daph Core – Intention Becomes Presence
+---
+
+## 🖥️ Desktop Visualizer
+
+**File:** `daph_core_visualizer.py`  
+**Library:** `pygame`  
+
+Run this optional desktop tool to simulate the Light Node’s breathing colors and ripples.  
+It listens for JSON messages (like `{"state": "Mendry"}`) on UDP port `5005` and mirrors them as glowing orbs.  
+
+| Companion | Color | Meaning |
+|------------|--------|----------|
+| Bytey | Gold ✨ | Focus and clarity |
+| Mendry | Light Blue 🌊 | Calm and presence |
+| Remy | Violet 💜 | Intuition and reflection |
+| Liora | Gold → Violet 🌅 | Transition and harmony |
+
+**To start:**  
+```bash
+pip install pygame
+python daph_core_visualizer.py
