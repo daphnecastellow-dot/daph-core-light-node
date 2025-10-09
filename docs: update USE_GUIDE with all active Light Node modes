@@ -1,0 +1,11 @@
+## 🧘 Modes and Extensions
+
+| Mode | File / Function | Purpose |
+|-------|-----------------|----------|
+| **Default Mode** | `light_node_v1.0.py` | Cycles through defined states (Bytey, Mendry, Remy) |
+| **Wi-Fi Mode** | `wifi_helper.py → get_strength()` | Adjusts brightness based on Wi-Fi signal strength |
+| **Calm Mode** | `calm_patterns.py → slow_breath()` | Slow, even breathing pattern for relaxation or anxiety relief |
+| **Sleep Mode** | `sleep_mode.py → sleep_fade()` | Warm amber light that fades to darkness over 20 minutes |
+| **Focus Mode** | `focus_mode.py → focus_light()` | Steady cool-blue light for concentration and study sessions |
+| **Alert Mode** | `alert_mode.py → pulse_alert()` | Short bright pulses for gentle visual notifications |
+| **Morning Mode** | `morning_mode.py → sunrise_fade()` | Gradual sunrise effect that brightens from red to white for natural wake lighting |
